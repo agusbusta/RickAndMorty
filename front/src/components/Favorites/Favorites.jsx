@@ -5,6 +5,8 @@ import { Link } from 'react-router-dom';
 import { filterCards, orderCards, getFavorites, cleanFavorites } from '../../redux/actions';
 
 
+
+
 const Favorites = () => {
     
     const dispatch = useDispatch();

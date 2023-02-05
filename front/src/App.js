@@ -8,6 +8,7 @@ import { Routes, Route, useLocation, useNavigate } from 'react-router-dom';
 import Form from './components/Form/Form';
 import Favorites from './components/Favorites/Favorites';
 import style from './components/Form/Form.module.css';
+import Footer from './components/Footer/Footer';
 
 function App () {
   const [access, setAccess] = useState(false);
@@ -51,7 +52,8 @@ function App () {
   const [showHelp, setShowHelp] = useState(false);
 
   return (
-    <div className='App' style={{ padding: '15px' }}>
+    <div className='app' style={{ padding: '15px' }}>
+    <div className='contentWrap'>
       {location.pathname === '/' ? (
         <>
           <Form login={login} />
@@ -76,6 +78,8 @@ function App () {
         <Route path='about' element={<About/>} />
         <Route path='detail/:detailId' element={<Detail/>} />
       </Routes>
+      </div>
+        <Footer />
     </div>
   )
   

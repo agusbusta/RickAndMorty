@@ -12,6 +12,12 @@
     margin: 1%;
 }
 
+.imgDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 /* Estilo de la imagen */
 .imgDiv img {
@@ -19,8 +25,6 @@
    border-radius: 50%;
     width: 50%;
     height: 50%;
-    left: 25%;
-    top: 5%;
     border: 4px solid #77d42a;
 }
 
@@ -32,8 +36,9 @@
     background-color: rgb(87, 87, 87);
     border-radius: 12px;
     position: absolute;
-    bottom: 5%;
+    bottom: 3.5%;
     width: 94%;
+    
    
 }
 
@@ -62,13 +67,10 @@
 }
 
 
-
 .nameCss {
     color: #77d42a;
-    width: 50%;
-    position: absolute;
-    left: 26%;
-    top: 55%;
+    width: 100%;
+    text-decoration: none;
     font-size: 22px;
 }
 
@@ -83,4 +85,16 @@
    font-size: 28px;
    background-color: transparent;
    border: none;
+}
+
+.nameImageC{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.linkCss{
+    text-decoration: none;
 }

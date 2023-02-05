@@ -1,10 +1,10 @@
 import Card from "../Card/Card";
-
+import style from './Cards.module.css'
 
 function Cards({ characters, onClose }) { 
 
    return (
-      <div>
+      <div className={style.cardsContainer}>
          {
             characters.map(({id, name, species, gender, image}) => {
               return <Card
@@ -14,7 +14,7 @@ function Cards({ characters, onClose }) {
                gender={gender}
                image={image}
                id={id}
-               onClose={() => onClose(id)}
+               onClose={() => onClose(id)} 
               />
             })
          }

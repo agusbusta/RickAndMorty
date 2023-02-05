@@ -24,19 +24,19 @@ const Favorites = () => {
         // eslint-disable-next-line 
     }, [])
 
-    console.log(myFavorites)
+
 
     return (
         <div>
             <div className={style.selectorCont}>
             <select className={style.selector} name="order" onChange={handleOrder}>
-                <option>Order By</option>
+                <option selected="true" disabled="disabled">Order By</option>
                 <option value="All">All</option>
                 <option value="Ascendente">Ascendente</option>
                 <option value="Descendente">Descendente</option>
             </select>
             <select className={style.selector} name="filter" onChange={handleFilter}>
-                <option>Filter By</option>
+                <option selected="true" disabled="disabled">Filter By</option>
                 <option value="All">All</option>
                 <option value="Male">Male</option>
                 <option value="Female">Female</option>

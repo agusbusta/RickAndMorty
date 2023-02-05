@@ -1,0 +1,86 @@
+.divConta{
+    display: inline-block;
+    width: 300px; 
+    margin-top: 1%;
+    height: 300px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1px);
+    border: 2px solid #77d42a;
+    padding: 10px;
+    margin: 1%;
+}
+
+
+/* Estilo de la imagen */
+.imgDiv img {
+    /* También puedes ajustar la altura y anchura de la imagen */
+   border-radius: 50%;
+    width: 50%;
+    height: 50%;
+    left: 25%;
+    top: 5%;
+    border: 4px solid #77d42a;
+}
+
+.speGen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(87, 87, 87);
+    border-radius: 12px;
+    position: absolute;
+    bottom: 5%;
+    width: 94%;
+   
+}
+
+.speGen h2 {
+    color: #5ea722;
+    font-size: 20px;
+    margin: 5%;
+    text-align: center;
+}
+
+.buttonDiv{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+
+.buttonx {
+    color: red;
+    background-color: transparent;
+    font-size: 20px;
+    border: none;
+}
+
+.buttonx:hover{
+    color: rgb(168, 0, 0);
+}
+
+
+
+.nameCss {
+    color: #77d42a;
+    width: 50%;
+    position: absolute;
+    left: 26%;
+    top: 55%;
+    font-size: 22px;
+}
+
+.nameCss:hover{
+    color: #5ea722;
+}
+
+.favBtn{
+   position: absolute;
+   left: 5%;
+   top: 5%;
+   font-size: 28px;
+   background-color: transparent;
+   border: none;
+}

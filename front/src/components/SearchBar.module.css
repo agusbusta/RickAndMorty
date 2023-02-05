@@ -1,0 +1,72 @@
+.searcherContainer {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.7px);
+    -webkit-backdrop-filter: blur(2.7px);
+    border: 2px solid #77d42a;
+    height: 90px;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    margin-bottom:20px; 
+}
+
+.btnSearcher{
+    box-shadow:inset 0px 1px 0px 0px #caefab;
+	background:linear-gradient(to bottom, #77d42a 5%, #5cb811 100%);
+	background-color:#77d42a;
+	border-radius:6px;
+	border:1px solid #268a16;
+	display:inline-block;
+	cursor:pointer;
+	color:#306108;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #aade7c;
+    
+    margin-right: 20px;
+    margin-left: 20px;
+    }
+    .btnSearcher:hover {
+        background:linear-gradient(to bottom, #5cb811 5%, #77d42a 100%);
+	    background-color:#5cb811;
+    }
+    .btnSearcher:active {
+        position:relative;
+        top:1px;
+    }
+
+    .searcher{
+        font-size: 100%;
+        outline: none;
+        width: 200px;
+        height: 30px;
+        display: table-cell; 
+        vertical-align: middle;
+        border: 2px solid #77d42a;
+        border-radius: 8px;
+        background-color: transparent;
+        color: #77d42a;
+}
+
+
+.tituloApp {
+    margin: 0;
+    width: 100%;
+}
+
+.logopic{
+    height: 140px;
+    position: absolute;
+    left: 10px;
+    top: -10px;
+    z-index: 9999;
+
+}

@@ -1,0 +1,23 @@
+body {
+   text-align: center;
+   background-image: url("https://media.istockphoto.com/id/1283307885/es/vector/fondo-de-textura-vectorial-stippled-puntos-blancos-sobre-negro.jpg?s=612x612&w=0&k=20&c=0zPPQr36-FeVrVaZXxUKUwglkUfIJvQJ-wQf41zB0Rc=");
+   height: 100%;
+   width: 100%;
+}
+
+.homebtn {
+   color: #77d42a;
+   padding-right: 30px;
+   padding-left: 10px;
+   text-decoration: none;
+   font-size: 20px;
+   display: inline-block;
+   padding-bottom: 20px;
+}
+
+.logoutBtn{
+   color: red;
+   position: absolute;
+   right: 30px;
+   font-size: 24px;
+}

@@ -1,0 +1,46 @@
+.aboutContainer{
+margin-top: 35px;
+font-family: 'Unbounded';
+background: rgba(255, 255, 255, 0.1);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(2.7px);
+-webkit-backdrop-filter: blur(2.7px);
+border: 0.5px solid rgba(255, 255, 255, 0.3);
+padding: 10px;
+}
+
+
+h1, p{
+    color: #77d42a;
+}
+
+.techContainer{
+    font-family: 'Unbounded';
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.7px);
+    -webkit-backdrop-filter: blur(2.7px);
+    border: 0.5px solid rgba(255, 255, 255, 0.3);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 160px;
+  }
+
+  h3 {
+    color: #77d42a;
+    margin-bottom: 10px;
+  }
+  
+  .logoStyle {
+    border-radius: 30%;
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+  }
+  
+
+  

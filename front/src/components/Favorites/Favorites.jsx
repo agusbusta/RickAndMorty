@@ -22,26 +22,22 @@ const Favorites = () => {
         dispatch(cleanFavorites())
         dispatch(getFavorites())
         // eslint-disable-next-line 
-    }, [])
-
-
+    }, []);
 
     return (
         <div>
             <div className={style.selectorCont}>
             <select className={style.selector} name="order" onChange={handleOrder}>
-                <option selected="true" disabled="disabled">Order By</option>
-                <option value="All">All</option>
+                <option>Order By</option>
                 <option value="Ascendente">Ascendente</option>
                 <option value="Descendente">Descendente</option>
             </select>
             <select className={style.selector} name="filter" onChange={handleFilter}>
-                <option selected="true" disabled="disabled">Filter By</option>
-                <option value="All">All</option>
+                <option>Filter By</option>
                 <option value="Male">Male</option>
                 <option value="Female">Female</option>
-                <option value="Genderless">Genderless</option>
-                <option value="Unknown">Unknown</option>
+                <option value="genderless">Genderless</option>
+                <option value="unknown">Unknown</option>
             </select>
             </div>
             { myFavorites.map(character => {

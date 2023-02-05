@@ -1,5 +1,5 @@
 import { useState } from "react";
-import validation from "../validation";
+import validation from "./validation";
 import style from './Form.module.css';
 
 
